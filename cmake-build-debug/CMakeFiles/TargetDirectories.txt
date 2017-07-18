@@ -1,3 +1,0 @@
-/home/neonkid/ClionProjects/SimpleChat_Server/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/neonkid/ClionProjects/SimpleChat_Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/neonkid/ClionProjects/SimpleChat_Server/cmake-build-debug/CMakeFiles/SimpleChat_Server_Fin.dir

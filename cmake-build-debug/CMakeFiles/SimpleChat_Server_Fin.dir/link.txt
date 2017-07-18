@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/SimpleChat_Server_Fin.dir/main.cpp.o CMakeFiles/SimpleChat_Server_Fin.dir/ChatServer.cpp.o CMakeFiles/SimpleChat_Server_Fin.dir/User.cpp.o CMakeFiles/SimpleChat_Server_Fin.dir/App.cpp.o CMakeFiles/SimpleChat_Server_Fin.dir/ChatThread.cpp.o CMakeFiles/SimpleChat_Server_Fin.dir/Auth.cpp.o  -o SimpleChat_Server_Fin -lpthread 

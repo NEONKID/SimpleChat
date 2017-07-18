@@ -1,5 +1,0 @@
-chatid1
-chatid2
-chatid3
-chatid4
-chatid5
