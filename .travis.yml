@@ -1,0 +1,29 @@
+language: cpp
+
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      sudo: false
+
+      before_install:
+        - mkdir $HOME/usr
+        - export PATH="$HOME/usr/bin:$PATH"
+        - wget https://cmake.org/files/v3.7/cmake-3.7.2-Linux-x86_64.sh
+        - chmod +x cmake-3.7.2-Linux-x86_64.sh
+        - ./cmake-3.7.2-Linux-x86_64.sh --prefix=$HOME/usr --exclude-subdir --skip-license
+      
+    - os: osx
+      osx_image: xcode8.3
+
+      before_install:
+        - brew update
+        - brew upgrade cmake
+
+script:
+  - cmake CMakeLists.txt
+  - make
+
+branches:
+  only:
+    - server
