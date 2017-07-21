@@ -1,6 +1,14 @@
 # SimpleChat Server
 
+
+
+| Linux / OS X                             | License                                  |
+| :--------------------------------------- | :--------------------------------------- |
+| [![Build Status](https://travis-ci.org/NEONKID/SimpleChat.svg?branch=master)](https://travis-ci.org/NEONKID/SimpleChat) |[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+
+
 This program uses POSIX Thread.  It can be used with operating systems that support POSIX threads.
+In addition, it uses a Unix socket, so It is not compatible with Windows sockets.
 
 
 
